@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IrrigateIQ: Smart monitoring for smarter irrigation.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #83a4d4, #b6fbff);
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+        h2, h4 {
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            font-weight: 500;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center mb-4">IrrigateIQ: Smart monitoring for smarter irrigation.</h2>
+
+    <!-- Current Readings Card -->
+    <div class="card">
+        <h4>Latest Readings:</h4>
+        <p><strong>Moisture Level:</strong> <span id="latestMoisture">Loading...</span></p>
+        <p><strong>Temperature:</strong> <span id="latestTemperature">Loading...</span> °C</p>
+    </div>
+
+    <!-- Data Chart Card -->
+    <div class="card">
+        <canvas id="dataChart" width="400" height="200" class="mb-4"></canvas>
+    </div>
+
+    <!-- Historical Data Card -->
+    <div class="card">
+        <h4>Recent Readings:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Moisture Level</th>
+                    <th>Temperature (°C)</th>
+                </tr>
+            </thead>
+            <tbody id="dataTable">
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Refresh Button -->
+    <div class="text-center">
+        <button class="btn btn-primary" onclick="fetchData()">Refresh Data</button>
+    </div>
+    
+    <script>
+        function fetchData() {
+            $.getJSON('/get_data', function(data) {
+                let moistureData = data.map(entry => entry.moisture);
+                let temperatureData = data.map(entry => entry.temperature);
+                let timestamps = data.map(entry => entry.timestamp);
+
+                // Update latest readings
+                document.getElementById('latestMoisture').innerText = moistureData[moistureData.length - 1];
+                document.getElementById('latestTemperature').innerText = temperatureData[temperatureData.length - 1];
+
+                // Update the data table
+                let tableHTML = '';
+                for (let i = data.length - 1; i >= 0; i--) {
+                    tableHTML += `<tr>
+                        <td>${data[i].timestamp}</td>
+                        <td>${data[i].moisture}</td>
+                        <td>${data[i].temperature}°C</td>
+                    </tr>`;
+                }
+                document.getElementById('dataTable').innerHTML = tableHTML;
+
+                // Update chart
+                let ctx = document.getElementById('dataChart').getContext('2d');
+                let chart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: timestamps,
+                        datasets: [{
+                            label: 'Moisture Level',
+                            data: moistureData,
+                            borderColor: 'blue',
+                            fill: false
+                        }, {
+                            label: 'Temperature (°C)',
+                            data: temperatureData,
+                            borderColor: 'red',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            xAxes: [{
+                                type: 'time',
+                                time: {
+                                    unit: 'minute'
+                                }
+                            }]
+                        }
+                    }
+                });
+            });
+        }
+
+        // Fetch data every 10 seconds
+        setInterval(fetchData, 10000);
+        fetchData();  // Initial fetch
+    </script>
+</body>
+</html>

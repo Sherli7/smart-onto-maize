@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Champs enregistrés</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nom</th>
+          <th>Emplacement</th>
+          <th>Superficie (ha)</th>
+          <th>Type de sol</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let field of fields">
+          <td>{{ field.id }}</td>
+          <td>{{ field.name }}</td>
+          <td>{{ field.location }}</td>
+          <td>{{ field.area }}</td>
+          <td>{{ field.soilType }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
