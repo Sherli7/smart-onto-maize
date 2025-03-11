@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48/"
-     xml:base="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48/"
+<rdf:RDF xmlns="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto/"
+     xml:base="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://creativecommons.org/ns#"
      xmlns:DUL="http://www.loa-cnr.it/ontologies/DUL.owl#"
@@ -10,8 +10,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:mergemaizeirrigonto="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#"
      xmlns:untitled-ontology-48="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto">
         <owl:imports rdf:resource="http://purl.oclc.org/NET/ssnx/ssn"/>
     </owl:Ontology>
     
@@ -31,72 +32,71 @@
     <!-- http://purl.oclc.org/NET/ssnx/ssn#observes -->
 
     <rdf:Description rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observes">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
     </rdf:Description>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#SoilNitrogen -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#SoilNitrogen -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#SoilNitrogen">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#SoilNitrogen">
         <rdfs:label>Azote du sol</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#growth -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#growth -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#growth">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#growth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#maize"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#hasSubSystem -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#hasSubSystem -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#hasSubSystem"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#hasSubSystem"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#intensity -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#intensity -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#intensity"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#intensity"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#irrigationFrequency -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#irrigationFrequency -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#irrigationFrequency"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#irrigationFrequency"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#observationResult -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#observationResult -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#observationResult"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#observationResult"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#optimalConditions -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#optimalConditions -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#optimalConditions"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#optimalConditions"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterAmount -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterAmount -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterAmount"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterAmount"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterNeed -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterNeed -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterNeed">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoins_hydriques_par_stade"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterNeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoins_hydriques_par_stade"/>
     </owl:ObjectProperty>
     
 
@@ -112,27 +112,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ResultatAzoteSol -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ResultatAzoteSol -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ResultatAzoteSol"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ResultatAzoteSol"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#irrigationFrequency -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#irrigationFrequency -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#irrigationFrequency"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#irrigationFrequency"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#optimalConditions -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#optimalConditions -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#optimalConditions"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#optimalConditions"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterAmount -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterAmount -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterAmount"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterAmount"/>
     
 
 
@@ -150,7 +150,7 @@
     <!-- http://purl.oclc.org/NET/ssnx/ssn#Input -->
 
     <rdf:Description rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Input">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -158,7 +158,7 @@
     <!-- http://purl.oclc.org/NET/ssnx/ssn#Output -->
 
     <rdf:Description rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Output">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -166,7 +166,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -174,7 +174,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Event -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Event">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -182,7 +182,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -190,7 +190,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Method -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Method">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -198,7 +198,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Object -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Object">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -206,7 +206,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -214,7 +214,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Process -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Process">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -222,7 +222,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Quality -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Quality">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -230,7 +230,7 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Region -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Region">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
@@ -238,300 +238,300 @@
     <!-- http://www.loa-cnr.it/ontologies/DUL.owl#Situation -->
 
     <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Situation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     </rdf:Description>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Aspersion -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Aspersion -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Aspersion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Aspersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationType"/>
         <rdfs:label>Aspersion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoins_hydriques_par_stade -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoins_hydriques_par_stade -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoins_hydriques_par_stade">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoins_hydriques_par_stade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
         <rdfs:label>Besoins hydriques par stade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Delay -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Delay -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Delay">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain_quantity"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Delay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain_quantity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Emergence_VE -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Emergence_VE -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Emergence_VE">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Emergence_VE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
         <rdfs:label>Emergence (VE)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Floraison -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Floraison -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Floraison">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Floraison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Germination -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Germination -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Germination">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Germination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Goutegoute -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Goutegoute -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Goutegoute">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Goutegoute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationType"/>
         <rdfs:label>Goutte-à-goutte</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IoTSensor -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IoTSensor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IoTSensor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IoTSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents"/>
         <rdfs:label>Capteurs IoT</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem"/>
         <rdfs:label>Composants d&apos;Irrigation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem">
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem">
         <rdfs:label>Système d&apos;Irrigation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationType -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationType">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem"/>
         <rdfs:label>Type d&apos;Irrigation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Maturation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Maturation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Maturation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Maturation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pompe -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pompe -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pompe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pompe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Puits -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Puits -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Puits">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterSource"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Puits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterSource"/>
         <rdfs:label>Puits</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain_quantity"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain_quantity"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain_quantity -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain_quantity -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain_quantity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain_quantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops"/>
         <rdfs:label>Rain quantity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Remplissage_des_grains -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Remplissage_des_grains -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Remplissage_des_grains">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Remplissage_des_grains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
         <rdfs:label>Remplissage des grains (R3/R4)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Reservoir -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Reservoir -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Reservoir">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterSource"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Reservoir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterSource"/>
         <rdfs:label>Réservoir</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rivière -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rivière -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rivière">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterSource"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rivière">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterSource"/>
         <rdfs:label>Rivière</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#SoilMoisture30Depth -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#SoilMoisture30Depth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#SoilMoisture30Depth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#SoilMoisture30Depth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture"/>
         <rdfs:label>Humidité du sol à 30 cm</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops"/>
         <rdfs:label>Humidité du sol</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soilmoisture60depth -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soilmoisture60depth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soilmoisture60depth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soilmoisture60depth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture"/>
         <rdfs:label>Humidité du sol à 60 cm</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#StadeVegetatif -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#StadeVegetatif -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#StadeVegetatif">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#StadeVegetatif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
         <rdfs:label>Végétatif  (V2, V5, V10)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vanne -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vanne -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vanne">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vanne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops"/>
         <rdfs:label>Stade de croissance</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops"/>
         <rdfs:label>Besoin en eau</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops">
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops">
         <rdfs:label>plante</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#locatedIrrigation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#locatedIrrigation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#locatedIrrigation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#locatedIrrigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationType"/>
         <rdfs:label>Irrigation localisée</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#maize -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crops"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#maize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crops"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#pipe -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#pipe -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#pipe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationComponents"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#pipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationComponents"/>
         <rdfs:label>Tuyaux</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterSource -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterSource -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#waterSource">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#waterSource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem"/>
         <rdfs:label>Source d&apos;Eau</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#zoneRoot -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#zoneRoot -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#zoneRoot">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Soil_moisture"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#zoneRoot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Soil_moisture"/>
         <rdfs:label>Zone racinaire</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Seuil_d&apos;irrigation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Seuil_d&apos;irrigation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Seuil_d&apos;irrigation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Seuil_d&apos;irrigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
         <rdfs:label>Seuil d&apos;irrigation</rdfs:label>
     </owl:Class>
     
@@ -548,207 +548,215 @@
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ActivationIrrigation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ActivationIrrigation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ActivationIrrigation">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ActivationIrrigation">
         <rdf:type rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Event"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#BesoinEauMaïs -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#BesoinEauMaïs -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#BesoinEauMaïs">
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#BesoinEauMaïs"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#BesoinEauMaïs">
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#BesoinEauMaïs"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Emergence -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Emergence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Emergence">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Emergence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</mergemaizeirrigonto:waterAmount>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Floraison -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Floraison -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Floraison">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Floraison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</mergemaizeirrigonto:waterAmount>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Germination -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Germination -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Germination">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Germination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</mergemaizeirrigonto:waterAmount>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Maturation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Maturation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Maturation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Maturation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</mergemaizeirrigonto:waterAmount>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Remplissage_Grains -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Remplissage_Grains -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Remplissage_Grains">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
-        <untitled-ontology-48:irrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-48:irrigationFrequency>
-        <untitled-ontology-48:optimalConditions>Température entre 20-30°C, humidité du sol &gt; 40%</untitled-ontology-48:optimalConditions>
-        <untitled-ontology-48:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</untitled-ontology-48:waterAmount>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Remplissage_Grains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:irrigationFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mergemaizeirrigonto:irrigationFrequency>
+        <mergemaizeirrigonto:optimalConditions>Température entre 20-30°C, humidité du sol &gt; 40%</mergemaizeirrigonto:optimalConditions>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</mergemaizeirrigonto:waterAmount>
+        <rdfs:label>Remplissage des grains (R3/R4)</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Vegetatif -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Vegetatif -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Vegetatif">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_water_need"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Vegetatif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_water_need"/>
+        <mergemaizeirrigonto:waterAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</mergemaizeirrigonto:waterAmount>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Emergence -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Emergence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Emergence">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Emergence"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Emergence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Emergence"/>
+        <rdfs:label>Emergence (VE)</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Floraison -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Floraison -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Floraison">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Floraison"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Floraison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Floraison"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Germination -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Germination -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Germination">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Germination"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Germination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Germination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationGoutteGoutte -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationGoutteGoutte -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationGoutteGoutte">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationSystem"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationGoutteGoutte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationSystem"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Maturation -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Maturation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Maturation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Maturation"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Maturation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Maturation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ObservationHumidite -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ObservationHumidite -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ObservationHumidite">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ObservationHumidite">
         <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
-        <DUL:includesEvent rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ActivationIrrigation"/>
-        <untitled-ontology-48:observationResult rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ResultatHumidite"/>
+        <DUL:includesEvent rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ActivationIrrigation"/>
+        <mergemaizeirrigonto:observationResult rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ResultatHumidite"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pluviometre -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pluviometre -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pluviometre">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Rain_quantity"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pluviometre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Rain_quantity"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pompe -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pompe -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pompe">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pompe">
         <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
-        <untitled-ontology-48:hasSubSystem rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationGoutteGoutte"/>
+        <mergemaizeirrigonto:hasSubSystem rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationGoutteGoutte"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Remplissage_Grains -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Remplissage_Grains -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Remplissage_Grains">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Remplissage_Grains"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Remplissage_Grains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Remplissage_Grains"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ResultatHumidite -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ResultatHumidite -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ResultatHumidite">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ResultatHumidite">
         <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Output"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#StadeCroissanceMaïs -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#StadeCroissanceMaïs -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#StadeCroissanceMaïs"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#StadeCroissanceMaïs"/>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Tensiometre -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Tensiometre -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Tensiometre">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Sensor"/>
-        <DUL:hasLocation rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ZoneRacinaire"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Tensiometre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Sensor"/>
+        <DUL:hasLocation rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ZoneRacinaire"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vanne -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vanne -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vanne">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vanne">
         <rdf:type rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
-        <untitled-ontology-48:hasSubSystem rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#IrrigationGoutteGoutte"/>
+        <mergemaizeirrigonto:hasSubSystem rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#IrrigationGoutteGoutte"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vegetatif -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vegetatif -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vegetatif">
-        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#crop_growth"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Besoin_Eau_Vegetatif"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vegetatif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#crop_growth"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Besoin_Eau_Vegetatif"/>
+        <rdfs:label>Végétatif (V2, V5, V10)</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ZoneRacinaire -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ZoneRacinaire -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#ZoneRacinaire">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#ZoneRacinaire">
         <rdf:type rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize -->
+    <!-- http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#maize -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#maize">
-        <untitled-ontology-48:growth rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#StadeCroissanceMaïs"/>
-        <untitled-ontology-48:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#BesoinEauMaïs"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#maize">
+        <mergemaizeirrigonto:growth rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#StadeCroissanceMaïs"/>
+        <mergemaizeirrigonto:waterNeed rdf:resource="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#BesoinEauMaïs"/>
     </owl:NamedIndividual>
     
 
@@ -761,19 +769,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Floraison">
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Floraison">
         <rdfs:label>Floraison (VT/R1)</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Maturation">
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Germination">
+        <rdfs:label>Germination</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Maturation">
         <rdfs:label>Maturation (R6)</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Pompe">
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Pompe">
         <rdfs:label>Pompe</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#Vanne">
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#Vanne">
         <rdfs:label>Vanne</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/untitled-ontology-48#optimalConditions">
+    <rdf:Description rdf:about="http://www.semanticweb.org/pc/ontologies/2025/0/mergemaizeirrigonto#optimalConditions">
         <rdfs:label>Conditions optimales</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
